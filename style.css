@@ -1,0 +1,57 @@
+.fejlec{
+  position: relative;
+}
+.img{
+  display: flex;
+  width: 100%;
+}
+blockquote::before {
+  content: '“';
+}
+.centered{
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  color: black;
+  padding-right: 540px;
+  font-family: 'Abril Fatface', cursive;
+}
+.bemutatkozas{
+  font-size: 40px;
+}
+h1{
+  font-size: 80px;
+}
+.container{
+  text-align: left;
+  position: absolute;
+  padding-right: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.masodik{
+  font-family: 'Merriweather', serif;
+  line-height: 0;
+}
+.idezet{
+  background: #696969;
+  color: white;
+  display: flex;
+  width: 800px;
+  align-baseline: center;
+  order: 2;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  margin: 60px 0 60px 0;
+}
+.end{
+  padding: 30px;
+  font-size: 30px;
+  padding: 0px;
+}
+hr{
+  width: auto;
+  height: 4px;
+  background: black;
+}
